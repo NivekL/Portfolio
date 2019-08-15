@@ -1,3 +1,9 @@
+<?php
+  date_default_timezone_set("Europe/Stockholm");
+  $birthday = new DateTime('1995-09-11'); // Enter your birthday in YYYY-MM-DD format
+  $currentDate = new DateTime('now');
+  $interval = $birthday->diff($currentDate);
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,11 +17,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   </head>
   <body>
-    <?php
-      $birthday = new DateTime('1995-09-11'); // Enter your birthday in YYYY-MM-DD format
-      $currentDate = new DateTime('now');
-      $interval = $birthday->diff($currentDate);
-    ?>
     <section id="about" class="tile-wrap hov hov-a">
       <h2 class="tile-title">About</h2>
     </section>
