@@ -25,19 +25,18 @@
         <div id="profile-wrap"><img id="profile-pic" src="img/profil-cirkel.png" alt="Image of Kevin Leskinen"></div>
         <h1 class="about-title">Hi, my name is Kevin Leskinen and I am a <?php echo $interval->format('%y'); ?> year old Web Developer from Stockholm.</h1>
         <p class="about-text">
-          Other than my intrest for movies, videogames and training I enjoy creating beautiful things with code.
-          I've graduated from an HVE-program, Web Developer in e-commerce at Medieinstitutet and currently work as a Frontend Developer at Carismar Software AB.
+          Other than my interest for movies, videogames and training I enjoy creating beautiful things with code.
+          I've graduated from an HVE-program, Web Developer in e-commerce at Medieinstitutet and I am currently looking for work as a Frontend Developer.
         </p>
         <br>
         <p class="about-text">
-          I just recently started working at Carismar where I will mostly be doing inhouse-consulting for e-commerce companies. Before Carismar I worked at Cheil Nordic for 2 years developing and updating campaign and landing pages for Samsung Nordic in Adobe Experience Manager (AEM) and Adobe Target. Using mostly HTML, CSS, JS and jQ.
-          During my studies I had an internship at Daniel Wellington. I was working agile with the Kanban method further developing the e-commerce website
-          using Angular 2 and AWS.
+          Since my days behind the school bench I've kept myself busy with work ranging from; developing and updating campaign pages for Samsung, to various frontend work for e-commerce customers.
+          I've always worked closely with other developers and ux-designers so in addition to what I learned in school and the main frontend tools, html, css and js. I've explored sass, vue and C# to name a few.
           <br>
           <br>
-          I would like to grow in the role of a front-end developer but I don't want to limit myself by just focusing on one side.
-          I belive that a balance between front-end and back-end knowledge may be beneficial in the future and therefore I am open and willing to learn more
-          about the technologies out there and also contribute with the knowledge that I have. If you think I could fit in at your workplace just reach out and we'll take it from there.
+          I would like to grow in the role of a Frontend Developer and bridge the gap between design and backend. By having some knowledge from both the design and backend area
+          I am on the road to becoming a more well rounded developer which may be beneficial in the future and therefore I am open and willing to learn more
+          about the technologies out there and also contribute with the knowledge that I have. If you think I could fit in at your workplace I would be more than happy to meet for a chat.
         </p>
       </div>
     </div>
@@ -89,10 +88,10 @@
         	<div class="skill-bar-percent" style="color:#fff;">100%</div>
         </div>
 
-        <div class="skillbar clearfix " data-percent="55%">
+        <div class="skillbar clearfix " data-percent="70%">
         	<div class="skillbar-title" style="background: #068587;"><span>JavaScript/jQuery</span></div>
         	<div class="skillbar-bar" style="background: #068587;"></div>
-        	<div class="skill-bar-percent">55%</div>
+        	<div class="skill-bar-percent">70%</div>
         </div>
 
         <div class="skillbar clearfix " data-percent="30%">
