@@ -104,86 +104,32 @@ body,div,section,h1,p,h2{margin:0;padding:0;}
 
 /*Skills section style*/
 
-.skills .center-box{width: 960px;}
-
-/*////////////////////////////////////////////SKILLBAR////////////////////////////////////////////////////////*/
-
-.skillbar {
-	position:relative;
-	display:block;
-	margin: auto;
-  margin-bottom: 15px;
-	width:80%;
-	background:#eee;
-	height:35px;
-	-webkit-transition:0.4s linear;
-	-moz-transition:0.4s linear;
-	-ms-transition:0.4s linear;
-	-o-transition:0.4s linear;
-	transition:0.4s linear;
-	-webkit-transition-property:width, background-color;
-	-moz-transition-property:width, background-color;
-	-ms-transition-property:width, background-color;
-	-o-transition-property:width, background-color;
-	transition-property:width, background-color;
+.skills-container{
+  display: flex;
+  width: 50%;
+  margin: 40px auto;
+  justify-content: space-evenly;
 }
 
-.skillbar-title {
-	position:absolute;
-	top:0;
-	left:0;
-	font-weight: normal;
-	font-size:13px;
-	color:#ffffff;
-	background:#6adcfa;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:4px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
+.skills-list {
+  padding: 0 20px;
+}
+
+.skills-title, .skills-list-item{
   font-family: 'Open Sans', sans-serif;
 }
 
-.skillbar-title span {
-  font-family: 'Open Sans', sans-serif;
-	display:block;
-	background:rgba(0, 0, 0, 0.1);
-	padding:0 10px;
-	height:35px;
-	line-height:35px;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:3px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
-
-.skillbar-bar {
-	height:35px;
-	width:0px;
-	background:#6adcfa;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-}
-
-.skill-bar-percent {
-  font-family: 'Open Sans', sans-serif;
-	position:absolute;
-	right:10px;
-	top:0;
-	font-size:11px;
-	height:35px;
-	line-height:35px;
-	color:#000;
+.skills-list-item {
+  font-size: 18px;
+  margin-bottom: 10px;
+  list-style-type: "- ";
 }
 
 /*Footer style*/
 #contact{
   position: relative;
   background: #fff;
+  border-top: 1px solid #ccc;
 }
 
 .contact-wrap{
@@ -273,6 +219,7 @@ body,div,section,h1,p,h2{margin:0;padding:0;}
 @media screen and (max-width:768px) {
   .case-box p{font-size: 18px;}
   .tile-content .center-box .about-text{font-size: 18px;}
+  .skills-container{width: 70%;}
 }
 
 @media screen and (max-width: 414px) {
@@ -285,4 +232,6 @@ body,div,section,h1,p,h2{margin:0;padding:0;}
   .tile-content .center-box .about-text{font-size: 16px;}
   .tile-content .center-box .about-title{font-size: 20px;}
   .social{margin-top: 30px;}
+  .skills-container{width: 100%; flex-direction: column; align-items: center;}
+  .skills-box:nth-last-child(1) {margin-top: 20px;}
 }

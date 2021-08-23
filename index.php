@@ -26,12 +26,12 @@
         <h1 class="about-title">Hi, my name is Kevin Leskinen and I am a <?php echo $interval->format('%y'); ?> year old Web Developer from Stockholm.</h1>
         <p class="about-text">
           Other than my interest for movies, videogames and training I enjoy creating beautiful things with code.
-          I've graduated from an HVE-program, Web Developer in e-commerce at Medieinstitutet and I am currently looking for work as a Frontend Developer.
+          I'm currently studying Frontend development at Jensen Education to sharpen my skills so that I am ready to start working full-time again as a developer when I graduate in June next year.
         </p>
         <br>
         <p class="about-text">
-          Since my days behind the school bench I've kept myself busy with work ranging from; developing and updating campaign pages for Samsung, to various frontend work for e-commerce customers.
-          I've always worked closely with other developers and ux-designers so in addition to what I learned in school and the main frontend tools, html, css and js. I've explored sass, vue and C# to name a few.
+          Before I went back to studying I actively worked as a Frontend Developer, first at Cheil Nordic and later at Carismar. I have approximately 2,5 years of working
+          experience as a developer. During which time I've developed campaign pages for Samsung Nordic and agile development of e-commerce projects.
           <br>
           <br>
           I would like to grow in the role of a Frontend Developer and bridge the gap between design and backend. By having some knowledge from both the design and backend area
@@ -52,13 +52,13 @@
             <p style="font-size:12px; font-style: italic;">HTML, CSS, Bootstrap, Sass, JS, PHP</p>
             <p>
               This is a unit in the ArmA 3 community that I am a part of.
-              In order to let people know what we are all about I created this website and it has put us on the map in the ArmA 3 community.
+              In order to let people know who we are and what we do I helped create this website.
             </p>
           </div>
         </a>
         <a href="https://www.samsung.com/se/zlatan/" target="_blank">
           <div class="case-box">
-            <img src="img/zlatan_case.png" alt="Viking PMC website case">
+            <img src="img/zlatan_case.png" alt="Samsung Zlatan case">
             <h2>Samsung</h2>
             <p style="font-size:12px; font-style: italic;">HTML, CSS</p>
             <p>
@@ -67,11 +67,15 @@
             </p>
           </div>
         </a>
-        <a href="https://www.niveamen.se/upplev/Local/se/body-hair-the-truth" target="_blank">
+        <a href="javascript:void(0);">
           <div class="case-box">
-            <img src="img/niveamen_case.png" alt="Viking PMC website case">
+            <img src="img/niveamen_case.png" alt="Nivea men case">
             <h2>Niveamen</h2>
-            <p style="font-size:12px; font-style: italic;">HTML, CSS, JS</p>
+            <p style="font-size:12px; font-style: italic;">
+              HTML, CSS, JS
+              <br>
+              (page no longer viewable)
+            </p>
             <p>At Cheil Nordic I made a landing page for visualizing survey data for a Niveamen campaign.</p>
           </div>
         </a>
@@ -80,27 +84,28 @@
     <section id="skills" class="tile-wrap hov hov-a">
       <h2 class="tile-title">Skills</h2>
     </section>
-    <div class="tile-content skills">
-      <div class="center-box">
-        <div class="skillbar clearfix " data-percent="100%">
-        	<div class="skillbar-title" style="background: #112F41;"><span>HTML5/CSS3</span></div>
-        	<div class="skillbar-bar" style="background: #112F41;"></div>
-        	<div class="skill-bar-percent" style="color:#fff;">100%</div>
-        </div>
-
-        <div class="skillbar clearfix " data-percent="70%">
-        	<div class="skillbar-title" style="background: #068587;"><span>JavaScript/jQuery</span></div>
-        	<div class="skillbar-bar" style="background: #068587;"></div>
-        	<div class="skill-bar-percent">70%</div>
-        </div>
-
-        <div class="skillbar clearfix " data-percent="30%">
-        	<div class="skillbar-title" style="background: #ED553B;"><span>PHP</span></div>
-        	<div class="skillbar-bar" style="background: #ED553B;"></div>
-        	<div class="skill-bar-percent">30%</div>
+      <div class="tile-content">
+        <div class="skills-container">
+          <div class="skills-box">
+            <h2 class="skills-title">Primary skills</h2>
+            <ul class="skills-list">
+              <li class="skills-list-item">HTML5</li>
+              <li class="skills-list-item">CSS3</li>
+              <li class="skills-list-item">JavaScript ES6</li>
+            </ul>
+          </div>
+          <div class="skills-box">
+            <h2 class="skills-title">General skills</h2>
+            <ul class="skills-list">
+              <li class="skills-list-item">UX/UI Design</li>
+              <li class="skills-list-item">React.js</li>
+              <li class="skills-list-item">Sass</li>
+              <li class="skills-list-item">Git</li>
+              <li class="skills-list-item">Scrum</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
 
     <section id="contact">
       <div class="contact-wrap">
@@ -110,6 +115,7 @@
         </div>
         <div class="social">
           <a href="https://www.linkedin.com/in/kevinleskinen/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+          <a href="https://github.com/NivekL" target="_blank"><i class="fab fa-github fa-2x"></i></a>
         </div>
       </div>
     </section>
