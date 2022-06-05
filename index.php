@@ -26,7 +26,7 @@
         <h1 class="about-title">Hi, my name is Kevin Leskinen and I am a <?php echo $interval->format('%y'); ?> year old Web Developer from Stockholm.</h1>
         <p class="about-text">
           Other than my interest for movies, videogames and training I enjoy creating beautiful things with code.
-          I'm currently studying Frontend development at Jensen Education to sharpen my skills so that I am ready to start working full-time again as a developer when I graduate in June next year.
+          I'm currently studying Frontend development at Jensen Education to sharpen my skills so that I am ready to start working full-time again as a developer.
         </p>
         <br>
         <p class="about-text">
